@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+    font-size: 16px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 50px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.list-item{
+    list-style: none;
+    /* padding: 10px; */
+    margin: 1.25rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+}
+.search-icon{
+    position: relative;
+    right: 20px;
+    top: 6px;
+}
+.search-icon>svg{
+    height: 25px;
+    width: 25px;
+}
+.nav-button{
+    /* height: 1.75rem;
+    width: 7rem; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: transparent;
+    padding: 5px 25px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.hero-container{
+    position: relative;
+    display: flex;
+}
+.square{
+    position: absolute;
+    left: 15%;
+    top: 35vh;
+}
+.square>img{
+    width: 300px;
+    height: 300px;
+}
+.hero-container>div:nth-child(4){
+    position: relative;
+    left: 5%;
+}
+.hero-container>div:nth-child(4)>img{
+    width: 400px;
+    height: 500px;
+}
+.hero-container-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 500px;
+    left: 15%;
+    top: 20vh;
+    height: 50vh;
+    text-align: center;
+}
+.hero-heading{
+    font-size: 52px;
+}
+.hero-description{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 0 100px;
+    margin: 25px 0 0 0;
+}
+.hero-container-right>div:nth-child(3){
+    margin-top: 50px;
+}
+.hero-container-right>div:nth-child(4){
+    margin-top: 50px;
+}
+.button-email{
+    width: 143px;
+    padding: 4px;
+    border-radius: 7px;
+    font-family: 'Orbitron';
+    font-size: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+.button-join{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-family: 'Orbitron';
+    font-size: 15px;
+    margin: 15px;
+    cursor: pointer;
+}
+.contact-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5a5959;
+}
+.icons{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    column-gap: 15px;
+    padding: 15px;
+}
+.icons>span>img{
+    width: 30px;
+    height: 30px;
+}
+.star{
+    position: absolute;
+    left: 85%;
+    top: 10%;
+}
+.star>img{
+    width: 50px;
+    height: 50px;
+}
+.globe{
+    position: absolute;
+    left: 50%;
+}
+.globe>img{
+    width: 50px;
+    height: 50px;
+}
